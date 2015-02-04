@@ -7,14 +7,20 @@
     <meta charset="UTF-8">
     <meta name="description" content="Micah Field's Home Page">
     <meta name="keywords" content="Mfield, Home, Stuff">
-    <meta name="author" content="Micah Field" <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />
-    <link rel="stylesheet" href="css/MenuMatic.css" type="text/css" media="screen" charset="utf-8" />
+    <meta name="author" content="Micah Field" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" charset="utf-8" />
+    <script>
+        $(function () {
+            $("#include").load("import/include.htm");
+        });
+    </script>
 </head>
 
 <body>
 
     <div id="container">
-
+        <div id="include"></div>
 
         <!-- BEGIN Menu -->
         <ul id="nav">
@@ -52,45 +58,9 @@
 
         <!-- END Menu -->
 
-        <div id="content">
-            <h1>I Am The Way Bae #WayBae</h1>
-            <p><a>Hello My name is Micah, Micah Field. Yes that was a call back to the old Bond movies. Get over it.
-            </a>
-            </p>
+        <div id="footer">
+            This is my footer.
         </div>
-
-    </div>
-    <div id="footer">
-        <a href="http://greengeckodesign.com/projects/menumatic.aspx" target="_blank" title="MenuMatic home page">MenuMatic</a> by Jason J. Jaeger at <a href="http://greengeckodesign.com" target="_blank" title="greengeckodesign">greengeckodesign.com</a>
-    </div>
-
-    <!-- Load the Mootools Framework -->
-    <script src="http://www.google.com/jsapi"></script>
-    <script>
-        google.load("mootools", "1.2.1");
-    </script>
-
-    <!-- Load the MenuMatic Class -->
-    <script src="js/MenuMatic_0.68.3.js" type="text/javascript" charset="utf-8"></script>
-
-    <!-- Create a MenuMatic Instance -->
-    <script type="text/javascript">
-        window.addEvent('domready', function () {
-            var myMenu = new MenuMatic();
-        });
-    </script>
-
-    <!-- begin google tracking code -->
-    <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-        var pageTracker = _gat._getTracker("UA-2180518-1");
-        pageTracker._initData();
-        pageTracker._trackPageview();
-    </script>
-    <!-- end google tracking code -->
 
 </body>
 
