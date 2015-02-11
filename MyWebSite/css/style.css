@@ -145,7 +145,8 @@ strong em {
     position: absolute;
     width: px;
     height: px;
-    //background: url(../img/logo.gif) no-repeat 0 0;
+    /* background: url(../img/logo.gif) no-repeat 0 0;*/
+    
     left: 50%;
     margin: 0 0 0 -280px;
     top: 15px;
@@ -187,8 +188,8 @@ strong em {
     display: block;
     padding: 10px 20px;
     background-color: #fff;
-    -moz-border-radius: 7px;
-    -webkit-border-radius: 7px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
 }
 /* Just main menu links --[for non-javascript users this applies to submenu links as well]*/
 
