@@ -158,6 +158,7 @@ strong em {
     overflow: hidden;
     text-indent: 999em;
     line-height: 999em;
+    z-index: 20;
 }
 
 #content {
@@ -168,6 +169,7 @@ strong em {
     margin: 0 0 0 -282px;
     padding: 15px 0;
     top: 60px;
+    z-index: 30;
 }
 
 #footer {
@@ -315,6 +317,7 @@ strong em {
     left: 50%;
     text-align: center;
     display: block;
+    z-index: 10000;
 }
 
 #subMenusContainer {
