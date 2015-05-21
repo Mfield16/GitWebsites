@@ -1,6 +1,6 @@
 int numRows = 10, numCols = 10;
 void setup() {
-  size(640, 480);
+  size(1920, 1080);
 }
 void draw() {
 
